@@ -8,6 +8,7 @@ html {
     font-size: 62.5%;
 }
 
+
 .header_container_Title {
     display: flex;
     align-items: center;
@@ -35,10 +36,36 @@ body {
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
     margin-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     width: 155px;
     height: 155px;
-    align-items: center;
-    justify-content: center;
     border-radius: 5px;
 }
+
+.categorias .foto_perfil_Rehabitar {
+    background-image: url('./img/fotoCata.png');
+    width: 50%;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.container_titulo_categorias {
+    position: relative;
+    top: 25px;
+    width: 50%;
+    height: 10px;
+}
+
+.container_info {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    width: 93%;
+    font-size: 1.2rem;
+
+}
+
