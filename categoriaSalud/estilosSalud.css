@@ -1,0 +1,11 @@
+.header_container_Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+    height: 60px;
+    width: 100%;
+    min-width: 425px;
+    text-align: center;
+}
